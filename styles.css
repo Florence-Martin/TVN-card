@@ -1,0 +1,104 @@
+:root {
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --dark-blue-main: hsl(217, 54%, 11%);
+  --Very-dark-blue-card: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--dark-blue-main);
+
+  font-family: "Outfit";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-top {
+  display: flex;
+  background-color: var(--Very-dark-blue-card);
+  justify-content: center;
+  margin: 68px 4px;
+}
+
+.icon-ethereum,
+.icon-clock {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  border-style: outset var(--Very-dark-blue-line);
+}
+
+img.icon {
+  height: 60px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+img {
+  border-radius: 1.5rem;
+}
+
+.card {
+  background-color: var(--Very-dark-blue-card);
+  border-radius: 1.5rem;
+  margin: 8rem auto;
+  min-height: 76vh;
+  justify-content: center;
+}
+
+.card-bottom,
+.card-footer {
+  align-items: center;
+  margin: 2rem 8rem;
+}
+
+h1 {
+  color: var(--color-White);
+  font-size: 40px;
+}
+
+h2 {
+  color: var(--color-cyan);
+  margin-left: 12px;
+}
+
+h3 {
+  margin-left: 12px;
+  color: var(--color-soft-blue);
+}
+
+p {
+  color: var(--color-soft-blue);
+  font-size: 34px;
+}
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hr {
+  text-decoration: none;
+  border-bottom: 2px solid var(--Very-dark-blue-line);
+}
+
+img.card-creator {
+  margin-left: -42px;
+  height: 75px;
+  border-style: outset;
+  border-radius: 50%;
+}
+.card-cretor-info {
+  margin-right: 12px;
+}
+
+.card-creator-name {
+  color: var(--color-White);
+}
